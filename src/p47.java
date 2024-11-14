@@ -2,7 +2,7 @@ public class p47
 {
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
+		p47Car car1 = new p47Car();
 		car1.show();
 		
 		int number = 1234;
@@ -16,13 +16,13 @@ public class p47
 	}
 
 }
-class Car
+class p47Car
 {
 	private int num;
 	private double gas;
 	private String name;
 	
-	public Car()
+	public p47Car()
 	{
 		num = 0;
 		gas = 0.0;
@@ -43,7 +43,7 @@ class Car
 	}
 	public void show()
 	{
-		System.out.print("車號是:"+this.num);
+		System.out.println("車號是:"+this.num);
 		System.out.println("汽油量是:"+this.gas);
 		System.out.println("車名是:"+this.name);
 	}

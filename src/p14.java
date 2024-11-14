@@ -2,14 +2,14 @@ public class p14
 {
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
+		p14Car car1 = new p14Car();
 		
 		car1.setNum(1234);
 		car1.setGas(20.5);
 	}
 
 }
-class Car
+class p14Car
 {
 	int num;
 	double gas;

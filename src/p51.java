@@ -2,10 +2,10 @@ public class p51
 {
 	public static void main(String[] args)
 	{
-		Car[] car1 = new Car[3];
+		p51Car[] car1 = new p51Car[3];
 		
 		for(int i = 0; i < car1.length; i++)
-			car1[i] = new Car();
+			car1[i] = new p51Car();
 		
 		car1[0].setCar(1234, 20.5);
 		car1[1].setCar(2345, 30.5);
@@ -16,12 +16,12 @@ public class p51
 	}
 
 }
-class Car
+class p51Car
 {
 	private int num;
 	private double gas;
 	
-	public Car()
+	public p51Car()
 	{
 		num = 0;
 		gas = 0.0;

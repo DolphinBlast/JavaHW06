@@ -2,7 +2,7 @@ public class p17
 {
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
+		p17Car car1 = new p17Car();
 		car1.setNumGas(1234, 20.5);
 		int number = car1.getNum();
 		double gasoline = car1.getGas();
@@ -12,7 +12,7 @@ public class p17
 	}
 
 }
-class Car
+class p17Car
 {
 	int num;
 	double gas;
@@ -25,7 +25,7 @@ class Car
 	
 	double getGas()
 	{
-		System.out.print("調查汽油量");
+		System.out.println("調查汽油量");
 		return gas;
 	}
 	void setNumGas(int n, double g)

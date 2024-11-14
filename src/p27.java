@@ -2,26 +2,26 @@ public class p27
 {
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
+		p27Car car1 = new p27Car();
 		car1.show();
 
-		Car car2 = new Car(1234, 25.0);
+		p27Car car2 = new p27Car(1234, 25.0);
 		car2.show();
 	}
 
 }
-class Car
+class p27Car
 {
 	private int num;
 	private double gas;
 	
-	public Car()
+	public p27Car()
 	{
 		num = 0;
 		gas = 0.0;
 		System.out.println("生產了車子");
 	}
-	public Car(int n, double g)
+	public p27Car(int n, double g)
 	{
 		num = n;
 		gas = g;

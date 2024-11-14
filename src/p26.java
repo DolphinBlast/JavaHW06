@@ -2,18 +2,18 @@ public class p26
 {
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
+		p26Car car1 = new p26Car();
 
 		car1.show();
 	}
 
 }
-class Car
+class p26Car
 {
 	private int num;
 	private double gas;
 	
-	public Car()
+	public p26Car()
 	{
 		num = 0;
 		gas = 0.0;

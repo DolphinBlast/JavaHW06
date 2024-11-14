@@ -2,7 +2,7 @@ public class p15
 {
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
+		p15Car car1 = new p15Car();
 		int number = 1234;
 		double gasoline = 20.5;
 		
@@ -10,7 +10,7 @@ public class p15
 	}
 
 }
-class Car
+class p15Car
 {
 	int num;
 	double gas;
@@ -19,7 +19,7 @@ class Car
 	{
 		num = n;
 		gas = g;
-		System.out.println("將車號設為:"+ this.num +"將汽油輛設為:"+this.gas );
+		System.out.println("將車號設為:"+ this.num +"汽油輛設為:"+this.gas );
 	}
 
 	void show()

@@ -3,11 +3,11 @@ public class p45
 	public static void main(String[] args)
 	{
 		System.out.println("宣告了car1");
-		Car car1 = new Car();
+		p45Car car1 = new p45Car();
 		car1.setCar(1234, 20.5);
 		
 		System.out.println("宣告car2");
-		Car car2;
+		p45Car car2;
 		
 		System.out.println("將car1指定給car2");
 		car2 = car1;
@@ -26,12 +26,12 @@ public class p45
 		car2.show();
 	}
 }
-class Car
+class p45Car
 {
 	private int num;
 	private double gas;
 	
-	public Car()
+	public p45Car()
 	{
 		num = 0;
 		gas = 0.0;
@@ -47,6 +47,6 @@ class Car
 	public void show()
 	{
 		System.out.println("車號是:"+this.num);
-		System.out.println(" 汽油量是:"+this.gas);
+		System.out.println("汽油量是:"+this.gas);
 	}
 }

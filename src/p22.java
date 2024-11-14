@@ -2,7 +2,7 @@ public class p22
 {
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
+		p22Car car1 = new p22Car();
 		car1.setNumGas(1234, 20.5);
 		car1.show();
 		
@@ -12,7 +12,7 @@ public class p22
 	}
 
 }
-class Car
+class p22Car
 {
 	private int num;
 	private double gas;

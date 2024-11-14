@@ -3,12 +3,12 @@ public class p5
 
 	public static void main(String[] args)
 	{
-		Car car1 = new Car();
-		car1.num = 1;
+		p5Car car1;
+		car1 = new p5Car();
 	}
 
 }
-class Car
+class p5Car
 {
 	int num;
 	//Class類別
